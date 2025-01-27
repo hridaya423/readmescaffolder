@@ -4,7 +4,7 @@
   "description": "Scaffolds README.md files for projects",
   "main": "src/generator.js",
   "bin": {
-    "readme-scaffold": "src/cli.js"
+    "readme-scaffolder": "src/cli.js"
   },
   "scripts": {
     "start": "node src/cli.js",
@@ -14,7 +14,7 @@
     "fs-extra": "^11.2.0",
     "handlebars": "^4.7.8",
     "inquirer": "^8.2.5",
-    "readme-scaffold": "^1.0.0"
+    "readme-scaffolder": "^1.0.0"
   },
   "keywords": [
     "readme",
