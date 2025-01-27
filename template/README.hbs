@@ -1,0 +1,48 @@
+# {{projectName}}
+
+{{#if includeLicense}}
+[![License: {{license}}](https://img.shields.io/badge/License-{{license}}-blue.svg)](LICENSE)
+{{/if}}
+
+{{description}}
+
+## Table of Contents
+{{#if includeTOC}}
+- [Installation](#installation)
+- [Usage](#usage)
+- [Tests](#tests)
+{{#if includeContributing}}- [Contributing](#contributing){{/if}}
+{{#if includeAuthor}}- [Author](#author){{/if}}
+{{#if includeLicense}}- [License](#license){{/if}}
+{{/if}}
+
+## Installation
+```bash
+{{installCommand}}
+```
+
+## Usage
+{{usage}}
+
+## Tests
+```bash
+{{testCommand}}
+```
+
+{{#if includeContributing}}
+## Contributing
+Contributions are welcome! Please follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+{{/if}}
+
+{{#if includeAuthor}}
+## Author
+{{authorName}}{{#if email}} - [{{email}}]{{/if}}
+{{#if githubUsername}}
+- GitHub: [@{{githubUsername}}](https://github.com/{{githubUsername}})
+{{/if}}
+{{/if}}
+
+{{#if includeLicense}}
+## License
+This project is licensed under the {{license}} License - see the LICENSE file for details.
+{{/if}}
