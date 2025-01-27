@@ -13,12 +13,12 @@ Scaffolds README.md files for projects
 
 ## Installation
 ```bash
-npm i readme-scaffold
+npm i readme-scaffolder
 ```
 
 ## Usage
 ```bash
-npx readme-scaffold start
+npx readme-scaffolder start
 ```
 
 ## Contributing
