@@ -1,5 +1,5 @@
 {
-  "name": "readme-scaffold",
+  "name": "readme-scaffolder",
   "version": "1.0.0",
   "description": "Scaffolds README.md files for projects",
   "main": "src/generator.js",
